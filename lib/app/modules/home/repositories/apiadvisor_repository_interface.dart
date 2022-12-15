@@ -1,4 +1,4 @@
-import 'package:arch/app/models/apiadvisor_model.dart';
+import 'package:arch/app/modules/home/models/apiadvisor_model.dart';
 
 abstract class IApiAdvisor {
   Future<ApiadvisorModel> getTime();

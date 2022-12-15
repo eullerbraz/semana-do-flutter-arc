@@ -1,5 +1,5 @@
-import 'package:arch/app/interfaces/local_storage_interface.dart';
-import 'package:arch/app/models/appconfig_model.dart';
+import 'package:arch/app/core/interfaces/local_storage_interface.dart';
+import 'package:arch/app/core/models/appconfig_model.dart';
 
 class ChangeThemeViewModel {
   final ILocalStorage storage;

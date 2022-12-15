@@ -1,4 +1,4 @@
-import 'package:arch/app/viewmodels/change_theme_viewmodel.dart';
+import 'package:arch/app/core/viewmodels/change_theme_viewmodel.dart';
 import 'package:flutter/foundation.dart';
 
 class AppController {

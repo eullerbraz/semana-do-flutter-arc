@@ -1,4 +1,4 @@
-import 'package:arch/app/models/apiadvisor_model.dart';
+import 'package:arch/app/modules/home/models/apiadvisor_model.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 

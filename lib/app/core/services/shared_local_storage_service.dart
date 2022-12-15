@@ -1,4 +1,4 @@
-import 'package:arch/app/interfaces/local_storage_interface.dart';
+import 'package:arch/app/core/interfaces/local_storage_interface.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedLocalStorageService implements ILocalStorage {
