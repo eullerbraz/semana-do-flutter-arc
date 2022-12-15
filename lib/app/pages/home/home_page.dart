@@ -1,7 +1,4 @@
 import 'package:arch/app/models/apiadvisor_model.dart';
-import 'package:arch/app/repositories/apiadvisor_repository.dart';
-import 'package:arch/app/services/client_http_service.dart';
-import 'package:arch/app/viewmodels/apiadvisor_viewmodel.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 

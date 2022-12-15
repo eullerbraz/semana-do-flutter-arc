@@ -39,7 +39,7 @@ class _LoginPageState extends State<LoginPage> {
               obscureText: true,
             ),
             SizedBox(height: 30),
-            RaisedButton(
+            ElevatedButton(
               onPressed: () {
                 //   Navigator.of(context).pushReplacementNamed('/home');
                 Modular.to.pushReplacementNamed('/home');

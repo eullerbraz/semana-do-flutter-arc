@@ -1,5 +1,3 @@
-import 'package:arch/app/pages/home/home_page.dart';
-import 'package:arch/app/pages/login/login_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -11,16 +9,15 @@ class AppWidget extends StatelessWidget {
     return ValueListenableBuilder<bool>(
       valueListenable: Modular.get<AppController>().themeSwitch,
       builder: (context, isDart, child) {
-        return MaterialApp(
+        return MaterialApp.router(
           title: 'Flutter Demo',
           theme: ThemeData(
             primarySwatch: Colors.blue,
             visualDensity: VisualDensity.adaptivePlatformDensity,
             brightness: isDart ? Brightness.dark : Brightness.light,
           ),
-          initialRoute: '/',
-          onGenerateRoute: Modular.generateRoute,
-          navigatorKey: Modular.navigatorKey,
+          routeInformationParser: Modular.routeInformationParser,
+          routerDelegate: Modular.routerDelegate,
         );
       },
     );
